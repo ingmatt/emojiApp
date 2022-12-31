@@ -1,0 +1,80 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+  background-color: darkorange;
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: #80D87F;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 1px 10px;
+    font-size: 18px;
+}
+
+
+.super-super-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.super-container {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(red, black);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: black;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
